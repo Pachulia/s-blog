@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       blog:{
-        title:"1232222222111111112222222222",
+        title:"gittest",
         content:""
       }
     };
