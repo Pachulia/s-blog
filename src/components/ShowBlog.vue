@@ -2,11 +2,11 @@
   <div id="show-blogs">
     <h1>博客总览</h1>
     <div v-for="blog in blogs" :key="blog.id" class="single-blog">
-      <h2> { { blog.title } }
-
+      <h2> 
+        {{blog.title}}
       </h2>
-      <article> { { blog.body } }
-
+      <article> 
+        {{blog.body}}
       </article>
     </div>
   </div>
